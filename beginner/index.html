@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rutuja Lanjewar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Rutuja</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()"><i class="bx bx-menu"></i></div>
+      <!-- Dark/Light toggle -->
+      <button id="theme-toggle" title="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <!-- ===== Home ===== -->
+  <section id="home" class="home fade-in">
+    <div class="home-content">
+      <h1>Hello, I'm <span>Rutuja Lanjewar</span></h1>
+      <p>I’m a <span id="typing"></span></p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="about slide-up">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="./images/photo.jpeg" alt="Profile">
+      <p>
+        A motivated and skilled Machine Learning and Software Development enthusiast
+        with hands-on experience in AI-driven healthcare solutions and neural
+        network architectures. Certified in Python, AI, Data Science, and RedHat
+        technologies. Passionate about driving innovation and delivering impactful
+        solutions in technology and automation.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="skills fade-in">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Python</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">AI & Automation</div>
+      <div class="skill">Software Development - MERN Stack</div>
+      <div class="skill">Data Analytics</div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="projects slide-up">
+    <h2>Key Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Handwritten Signature Verification</h3>
+        <p>Developed using CNN (AlexNet). Presented research paper at DMIHER International Conference on AI in Healthcare, Education, and Industry (IDICAIEI).</p>
+      </div>
+      <div class="project-card">
+        <h3>Retinal Disease Classification</h3>
+        <p>Deep learning-based tool for binary & multiclass classification of retinal diseases.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Research ===== -->
+  <section id="research" class="research fade-in">
+    <h2>Research Work</h2>
+    <ul>
+      <li>Review paper on <b>Blockchain Technology in Healthcare</b> – Accepted at ICACCTT 2025.</li>
+      <li>Meta-analysis on <b>AI-Powered Decision Support Systems in Oncology</b> – Accepted at ICACCTT 2025.</li>
+      <li>Paper on <b>Retinal Disease Classification</b> – Accepted at ICSADL 2025.</li>
+    </ul>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section id="certifications" class="certifications slide-up">
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <embed src="./images/ibm full.pdf" type="application/pdf" />
+        <p>IBM Full Stack Software Developer</p>
+      </div>
+      <div class="cert-card">
+        <embed src="./images/1-df8fe084-4ec5-4c39-957e-8c3bb1f5f7df.pdf" type="application/pdf" />
+        <p>Modern Web Development (Infosys)</p>
+      </div>
+      <div class="cert-card">
+        <embed src="./images/overall.pdf" type="application/pdf" />
+        <p>Google Data Analytics</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- ===== Resume ===== -->
+<section id="resume" class="resume slide-up">
+  <h2>Resume</h2>
+  <p class="resume-intro">
+    Curious to know more about my journey? 🌟  
+    My resume highlights my academic achievements, certifications, hands-on projects,  
+    and professional experiences that showcase my passion for <b>AI, Data Science</b>,  
+    and <b>Full-Stack Development</b>.
+  </p>
+  <p class="resume-intro">
+    Download my resume and explore how I combine <b>creativity</b>,  
+    <b>problem-solving</b>, and <b>technical expertise</b>  
+    to deliver impactful solutions 🚀.
+  </p>
+  <a href="images/Dmet1222021_Rutuja (1).pdf" class="btn" download>📄 Download My Resume</a>
+</section>
+
+
+
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="contact-info">
+      <p><i class="bx bx-envelope"></i> rutujalanjewar16@gmail.com</p>
+      <p><i class="bx bx-phone"></i> 8421144205</p>
+      <p><i class="bx bx-map"></i> Sawangi(M), Wardha</p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 Rutuja Lanjewar | All Rights Reserved</p>
+  </footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
